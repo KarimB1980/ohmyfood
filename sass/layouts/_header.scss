@@ -1,0 +1,31 @@
+/* Header */
+
+/*Entête de la page d'accueil */
+
+#enteteindex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Entête des pages de menus */
+
+.enteterestos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flecheentete {
+    margin-left: 5%;
+}
+
+.texteentete {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flecheentete p:hover {
+    font-size: 200%;
+}

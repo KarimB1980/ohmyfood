@@ -1,0 +1,61 @@
+/* Form */
+/* Loading spinner */
+
+$primary-color: #9356DC;
+$secondary-color: #FF79DA;
+$tertiary-color: #99E2D0;
+
+.contenu {
+    position:absolute;
+    top:0;
+    left:0;
+    animation :show 3s;
+    width: 100%;
+    @keyframes show {
+        0%,80% {opacity:0;};
+        100% {opacity:1;};
+    }
+}
+
+.barre {
+    width: 90%;
+	height: 25px;
+	border: 3px solid #D3D3D3;
+    margin: 20% auto;
+	border-radius: 1em;
+	position: relative;
+    background-color: $tertiary-color;
+    opacity:0;
+    animation:3s hide;
+    @keyframes hide {
+        0%,80% {opacity:1;}
+        100% {opacity:0;}
+    }
+}
+
+.barre:after {
+	content: "Chargement de Ohmyfood...";
+	font-family: 'Shrikhand', cursive;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.barredefilement {
+	display: block;
+    height: 100%;
+    border:1px solid $tertiary-color;
+    background:linear-gradient(45deg, $primary-color, $secondary-color);
+    border-radius:1em;
+    animation: roll 3s linear infinite;
+    box-shadow: 10px 10px 10px #d3d3d3;
+    transition-delay: 3s;
+    @keyframes roll {
+        0% {width:0;}
+        100% {width:100%;}
+    }
+}

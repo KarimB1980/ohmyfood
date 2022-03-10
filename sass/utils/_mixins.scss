@@ -1,0 +1,19 @@
+/* Mixins */
+
+/* Mixin pour les ombres des boutons */
+
+@mixin ombre {
+    box-shadow: 5px 5px 5px $ombre-color;
+    transition: all 500ms;    
+}
+
+/* Mixins pour la surbrillance et les ombres des boutons */
+
+@mixin surbrillance {
+    filter: brightness(150%);
+    box-shadow: 10px 10px 10px darken($ombre-color, 50%);
+}
+
+@mixin ombre_foncee {
+    box-shadow: 10px 10px 10px darken($ombre-color, 50%);
+}

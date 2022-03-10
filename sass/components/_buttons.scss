@@ -1,0 +1,83 @@
+/* Buttons */
+
+/* Bouton "Explorer nos restaurants" */
+
+#explorer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 25px 25px 25px 25px;
+    background: linear-gradient($secondary-color, $primary-color);
+    color: white;
+    height: 3em;
+    @include ombre
+}
+
+#explorer:hover {
+    @include surbrillance;
+}
+
+/* Bouton pour les quatre restaurants */
+
+.restaurant {
+    width: 90%;
+    max-width: 405px;
+    max-height: 260px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    @include ombre
+}
+
+.restaurant:hover {
+    @include surbrillance;
+}
+
+/* Bouton pour les entrées, plats et desserts */
+
+.boutonplat {
+    position: relative;
+    top: 0em;
+    left: 0em;
+    overflow: hidden;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    box-shadow: 5px 5px 5px #D3D3D3;
+    cursor: pointer;
+    transition: all 0.3s linear 0s;
+}
+
+/* Bouton "Commander" */
+
+.commander {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 25px 25px 25px 25px;
+    background: linear-gradient($secondary-color, $primary-color);
+    color: white;
+    height: 3em;
+    margin-top: 50px;
+    @include ombre
+}
+
+.commander:hover {
+    @include surbrillance;
+}

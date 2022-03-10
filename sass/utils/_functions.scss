@@ -1,0 +1,157 @@
+/* Propriétés pour les écrans entre 100 et 300 pixels de largeur */
+
+@media (min-width: 100px) {
+    .texteentete h1 {font-family: 'Shrikhand', cursive; font-size: 100%;}
+    #ohmyfood p{font-size: 70%;}
+    #logoohmyfood h4{font-size: 100%;}
+    h2{font-size: 100%;}
+    .titrecarte h2 {font-size: 100%}
+    .logo p{font-size: 30%;}
+    #explorer p{font-size: 80%;}
+    #enteteindex{font-size: 50%;}
+    #entetefrancaise{font-size: 50%;}
+    #photocartealafrancaise {height: 120px;}
+    #photocartelanoteenchantee {height: 120px;}
+    #photocartelapalettedugout {height: 120px;}
+    #photocarteledelicedessens {height: 120px;}
+    #photorestopalette {height: 80px;}
+    #photorestonote {height: 80px;}
+    .photoresto {height: 80px;}
+    .logodescription {height: 15px;}
+    #ohmyfood p:hover {font-size: 80%;}
+    .coeurresto p {font-size: 1em;}
+    .coeurplein p {font-size: 1em;color: white;}
+    .cercle {left: 5px;width: 15px;height: 15px;border-radius: 7.5px;}
+    .prix p{font-size: 50%;}
+    .recetteaccompagnement p {font-size: 50%;}
+    .recetteaccompagnement h3 {font-size: 50%;}
+    .natureplat p {font-size: 50%;}
+    .descriptionfooter {height: 13px;}
+}
+
+/* Propriétés pour les écrans entre 300 et 768 pixels de largeur */
+
+@media (min-width: 300px) {
+    .texteentete h1 {font-family: 'Shrikhand', cursive; font-size: 200%;}
+    #ohmyfood p{font-size: 100%;}
+    #logoohmyfood h4{font-size: 125%;}
+    h2{font-size: 150%;}
+    .titrecarte h2 {font-size: 180%}
+    .description {height: 50%;}
+    #explorer p{font-size: 100%;}
+    #enteteindex{font-size: 100%;}
+    #entetefrancaise{font-size: 100%;}
+    #photocartealafrancaise {height: 250px;}
+    #photocartelanoteenchantee {height: 250px;}
+    #photocartelapalettedugout {height: 250px;}
+    #photocarteledelicedessens {height: 250px;}
+    #photorestopalette {height: 180px;}
+    #photorestonote {height: 180px;}
+    .photoresto {height: 180px;}
+    .logodescription {height: 25px;}
+    #ohmyfood p:hover {font-size: 130%;}
+    .coeurresto p {font-size: 1.5em;}
+    .coeurplein p {font-size: 1.5em;color: white;}
+    .cercle {left: 20px;width: 30px;height: 30px;border-radius: 15px;}
+    .prix p{font-size: 100%;}
+    .recetteaccompagnement p {font-size: 100%;}
+    .recetteaccompagnement h3 {font-size: 120%;}
+    .natureplat p {font-size: 100%;}
+    .descriptionfooter {height: 22px;}
+}
+
+/* Propriétés pour les écrans supérieurs à 768 pixels de largeur */
+
+@media (min-width: 768px) {
+    .texteentete h1 {font-family: 'Shrikhand', cursive; font-size: 400%;}
+    #ohmyfood p{font-size: 160%;}
+    #logoohmyfood h4{font-size: 185%;}
+    h2{font-size: 185%;}
+    .titrecarte h2 {font-size: 300%}
+    #explorer p{font-size: 100%;}
+    #enteteindex{font-size: 200%;}
+    #entetefrancaise{font-size: 200%;}
+    #photocartealafrancaise {height: 480px;}
+    #photocartelanoteenchantee {height: 480px;}
+    #photocartelapalettedugout {height: 480px;}
+    #photocarteledelicedessens {height: 480px;}
+    #photorestopalette {height: 180px;}
+    #photorestonote {height: 180px;}
+    .photoresto {height: 180px;}
+    .logodescription {height: 35px;}
+    #ohmyfood p:hover {font-size: 200%;}
+    .coeurresto p {font-size: 2em;}
+    .coeurplein p {font-size: 2em;color: white;}
+    .cercle {left: 40px;width: 60px;height: 60px;border-radius: 30px;}
+    .prix p{font-size: 200%;}
+    .recetteaccompagnement p {font-size: 200%;}
+    .recetteaccompagnement h3 {font-size: 240%;}
+    .natureplat p {font-size: 200%;}
+    .descriptionfooter {height: 32px;}
+}
+
+/* Propriétés de remplissage du coeur de la page d'accueil pour les écrans inférieurs à 992 pixels de largeur */
+
+@media (max-width: 992px) {
+
+    /* Remplissage du coeur en dégradé au clic */
+
+    .boutonplat:active {@include ombre_foncee;}
+
+    .coeurplein:active {
+        opacity: 1;
+    }
+
+    .fa-heart:active {
+        background:linear-gradient($primary-color, $secondary-color 40%);
+        -webkit-background-clip: text;
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: roll 500ms linear;
+    }
+
+    /* Affichage de droite à gauche du disque coché au clic */
+
+    .boutonplat:active .boutonplat-coche {width: 20%;}
+    .boutonplat:active .recetteaccompagnement {width: 70%;}
+
+    /* Rotation d'un tour du disque coché au clic */
+
+    .boutonplat:active .cercle {
+        transition: all 0.5s ease;
+        transform: rotate(360deg);
+    }
+}
+
+/* Propriétés de remplissage du coeur de la page d'accueil pour les écrans supérieurs à 992 pixels de largeur */
+
+@media (min-width: 992px) {
+
+    .boutonplat:hover {@include ombre_foncee;}
+
+    /* Remplissage du coeur en dégradé au survol */
+
+    .coeurplein:hover {opacity: 1;}
+
+    .fa-heart:hover {
+        background:linear-gradient($primary-color, $secondary-color 40%);
+        -webkit-background-clip: text;
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: roll 500ms linear;
+        cursor: pointer;
+    }
+
+    /* Affichage de droite à gauche du disque coché au survol */
+
+    .boutonplat:hover .boutonplat-coche {width: 20%;}
+    .boutonplat:hover .recetteaccompagnement {width: 70%;}
+
+
+    /* Rotation d'un tour du disque coché au survol */
+
+    .boutonplat:hover .cercle {
+        transition: all 0.5s ease;
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet 3 - Ohmyfood",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:public/css/style.css --style compressed",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "author": "Karim BERRICHE",
+  "license": "KB",
+  "browserslist": "last 4 versions"
+}

@@ -1,0 +1,113 @@
+/* Typography */
+
+h1 {
+    font-family: 'Shrikhand', cursive;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+h4 {
+    font-family: 'Shrikhand', cursive;
+    color: white;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+#flecheentete p {
+    color: black;
+}
+
+.quartierresto p {
+    margin: 0px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.restaurant a {
+    color: black;
+}
+
+#ohmyfood h1 {
+    color: white;
+}
+
+#ohmyfood p {
+    color: white;
+    line-height: 100%;
+    margin: 0;
+}
+
+.logo {
+    line-height: 0%;
+    margin: 0%;
+}
+
+.logo p {
+    line-height: 0%;
+    margin: 0%;
+}
+
+.liste p {
+    height: 100%;
+}
+
+.logodescription p {
+    line-height: 0%;
+    margin: 0%;
+}
+
+#reservation p, #fonctionnement p, #titrerestaurants p {
+    font-weight: bold;
+}
+
+#fonction p {
+    font-weight: bold;
+}
+
+.coeurplein p {
+    color: white;
+}
+
+
+/* Propriétés générales à toutes les cartes */
+
+.titrecarte h2 {
+    font-family: 'Shrikhand', cursive;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.flecheentete p {
+    color: black;
+    font-size: x-large;
+}
+
+.natureplat p {
+    margin: 0%;
+    margin-bottom: 6px;
+}
+
+.recetteaccompagnement p {
+    margin: 0%;
+    margin-top: 5px;
+}
+
+.prix p{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
