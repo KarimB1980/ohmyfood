@@ -27,6 +27,10 @@
     .recetteaccompagnement h3 {font-size: 50%;}
     .natureplat p {font-size: 50%;}
     .descriptionfooter {height: 13px;}
+    .description a{font-size: 70%;}
+    .descriptionfooter a{font-size: 70%;}
+    .logo i{font-size: 70%;color: white;}
+    .titrecoeur {margin-right: 25%;}
 }
 
 /* Propriétés pour les écrans entre 300 et 768 pixels de largeur */
@@ -58,13 +62,14 @@
     .recetteaccompagnement h3 {font-size: 120%;}
     .natureplat p {font-size: 100%;}
     .descriptionfooter {height: 22px;}
+    .logo i{color: white;}
+    .titrecoeur {margin-right: 13%;}
 }
 
 /* Propriétés pour les écrans supérieurs à 768 pixels de largeur */
 
 @media (min-width: 768px) {
     .texteentete h1 {font-family: 'Shrikhand', cursive; font-size: 400%;}
-    #ohmyfood p{font-size: 160%;}
     #logoohmyfood h4{font-size: 185%;}
     h2{font-size: 185%;}
     .titrecarte h2 {font-size: 300%}
@@ -88,6 +93,10 @@
     .recetteaccompagnement h3 {font-size: 240%;}
     .natureplat p {font-size: 200%;}
     .descriptionfooter {height: 32px;}
+    .description a{font-size: 160%;}
+    .descriptionfooter a{font-size: 160%;}
+    .logo i{font-size: 160%;color: white;}
+    .titrecoeur {margin-right: 13%;}
 }
 
 /* Propriétés de remplissage du coeur de la page d'accueil pour les écrans inférieurs à 992 pixels de largeur */
