@@ -31,6 +31,8 @@
     .descriptionfooter a{font-size: 70%;}
     .logo i{font-size: 70%;color: white;}
     .titrecoeur {margin-right: 25%;}
+    .logo {width: 13%;}
+    .logodescription {align-items: center;}
 }
 
 /* Propriétés pour les écrans entre 300 et 768 pixels de largeur */
@@ -61,12 +63,14 @@
     .recetteaccompagnement p {font-size: 100%;}
     .recetteaccompagnement h3 {font-size: 120%;}
     .natureplat p {font-size: 100%;}
-    .descriptionfooter {height: 22px;}
+    .descriptionfooter {height: 22px;margin-top: 5px;}
     .logo i{color: white;}
     .description a{font-size: 100%;}
     .descriptionfooter a{font-size: 100%;}
     .logo i{font-size: 100%;color: white;}
     .titrecoeur {margin-right: 13%;}
+    .logo {width: 8%;}
+    .logodescription {align-items: center;}
 }
 
 /* Propriétés pour les écrans supérieurs à 768 pixels de largeur */
@@ -95,11 +99,13 @@
     .recetteaccompagnement p {font-size: 200%;}
     .recetteaccompagnement h3 {font-size: 240%;}
     .natureplat p {font-size: 200%;}
-    .descriptionfooter {height: 32px;}
+    .descriptionfooter {height: 32px;margin-top: 10px;}
     .description a{font-size: 160%;}
     .descriptionfooter a{font-size: 160%;}
     .logo i{font-size: 160%;color: white;}
     .titrecoeur {margin-right: 13%;}
+    .logo {width: 5%;}
+    .logodescription {align-items: center;}
 }
 
 /* Propriétés de remplissage du coeur de la page d'accueil pour les écrans inférieurs à 992 pixels de largeur */
