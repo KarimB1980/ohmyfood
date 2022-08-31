@@ -24,8 +24,9 @@ p {
     text-decoration: none;
 }
 
-#flecheentete p {
+.flecheentete i {
     color: black;
+    font-size: 200%;
 }
 
 .quartierresto p {
@@ -90,11 +91,6 @@ a {
     font-family: 'Shrikhand', cursive;
     margin-top: 0%;
     margin-bottom: 0%;
-}
-
-.flecheentete p {
-    color: black;
-    font-size: x-large;
 }
 
 .natureplat p {
